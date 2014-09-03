@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>4:3 - Dimensions Calculator</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- Static navbar -->
+<div class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Aspect Ratio</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li class="divider"></li>
+                        <li class="dropdown-header">Nav header</li>
+                        <li><a href="#">Separated link</a></li>
+                        <li><a href="#">One more separated link</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Default</a></li>
+                <li class="active"><a href="./">Static top</a></li>
+                <li><a href="#">Fixed top</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="row row-offcanvas row-offcanvas-right">
+
+        <div class="col-xs-12 col-sm-9">
+            <p class="pull-right visible-xs">
+                <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+            </p>
+            <div class="jumbotron">
+                <h1>4:3 Dimensions Calculator</h1>
+                <p class="lead">
+                    Please enter your desired width for a 4:3 HD size video or image to get the actual width and height needed to
+                    maintain the aspect ratio when resizing your original videos or images.
+                </p>
+
+                <form role="form">
+
+                    <div class="form-group">
+                        <div class="clearfix">
+                            <div class="col-sm-6 width-block-minimal clearMargin marginRight">
+                                <div class="input-group">
+                                    <span class="input-group-addon">Width</span>
+                                    <input type="text" class="form-control this_width standard_definition" placeholder="Width" value="640">
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 width-block-minimal clearMargin">
+                                <div class="input-group">
+                                    <span class="input-group-addon">Height</span>
+                                    <input type="text" class="form-control this_height high_definition" placeholder="Height" value="480">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <p class="lead text-danger">
+                        *please not that the supplied values are automatically to increase efficiency, accuracy and fluidity! Have fun :)
+                    </p>
+                </form>
+
+            </div>
+
+            <div class="row other-info">
+
+                <div class="col-6 col-sm-6 col-lg-6">
+                    <h2>Important</h2>
+                    <p class="lead">
+                        Please note that this would be the actual size of the video/image, and NOT to include the video players dimensions
+                        (which at times might or maybe be usually 20 - 30 pixels more) - This only affects for videos only,
+                        for images it should be a little more straight forward.
+                    </p>
+                    <p class="lead">
+                        For flexibility purposes, i have also included the
+                        <a class="text-danger" href="ar_dimensions.html">"both Aspect ratio and Dimensions calculator".</a> Please be sure
+                        to check it out too.
+                    </p>
+                </div><!--/span-->
+
+                <div class="col-6 col-sm-6 col-lg-6">
+                    <h2>Some Info</h2>
+                    <p class="lead">
+                        The <a class="text-warning" href="4by3.html">Standard Definition (SD / 4:3)</a>
+                        calculator is bundled <a class="label label-warning" href="4by3.html">here.</a> as well
+                        please please be sure to check it out.
+
+                    </p>
+                    <p class="lead">
+                        Or if you would like to play around with the
+                        <a class="text-info" href="16by9.html">High Definition (HD / 16:9) </a> calculator,
+                        be sure to check it out <a class="label label-danger" href="16by9.html"> here</a>  as well.
+                    </p>
+                    <p class="lead">
+                        And the all in one
+                        <a class="text-success" href="16by9.html">Aspect Ratio and dimensions </a> calculator,
+                        is also included <a class="label label-primary" href="ar_dimensions.html"> here</a>  as well, please be sure to check it
+                        out.
+                    </p>
+                </div><!--/span-->
+
+            </div><!--/row-->
+
+        </div><!--/span-->
+
+        <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+            <div class="list-group">
+                <a href="index.html" class="list-group-item active">Home</a>
+                <a href="16by9.html" class="list-group-item">16:9 Aspect Ratio (HD)</a>
+                <a href="4by3.html" class="list-group-item">4:3 Aspect Ratio (SD)</a>
+                <a href="ar_dimensions.html" class="list-group-item"> Aspect Ratio & Dimensions</a>
+                <a href="help.html" class="list-group-item"> Support & Documentation</a>
+            </div>
+
+            <div class="lead well">
+                <p>Final Dimensions</p>
+                <p>
+                    <strong class="final_width"></strong> &times; <strong class="final_height"></strong>
+                </p>
+            </div>
+
+        </div><!--/span-->
+    </div><!--/row-->
+
+    <hr>
+
+    <footer>
+        <p>&copy; SimTabi 2014</p>
+    </footer>
+
+</div><!--/.container-->
+
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/app.config.js"></script>
+</body>
+</html>
