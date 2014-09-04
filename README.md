@@ -10,7 +10,7 @@
 <p>&nbsp;</p>
 <h2>Contact &amp; Support?</h2>
 <p>Feel free to contact me here:</p>
-<p><a href="http://www.mnimani.com">Website: www.mnimani.com</a></p>
+<p>Website: <a href="http://www.mnimani.com">www.mnimani.com</a></p>
 <p>Email:&nbsp;&nbsp;&nbsp; <a href="mailto:hello@mnimani.com">hello@mnimani.com</a></p>
 <p>&nbsp;</p>
 <h2>Licensing?</h2>
