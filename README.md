@@ -28,6 +28,5 @@ And by the way, it's completely open source, released under **MIT License**.
 
 Feel free to contact me here:
 
-[Website: www.mnimani.com](http://www.mnimani.com)
-
-Email:&nbsp;&nbsp;&nbsp; hello@mnimani.com
+[Website: www.mnimani.com
+](http://www.mnimani.com)Email:&nbsp;&nbsp;&nbsp; hello@mnimani.com
